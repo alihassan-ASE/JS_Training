@@ -66,11 +66,8 @@ switch(number){
 // Ternary Conditions
 
 let isBirthday = true;
-const greeting = isBirthday
-  ? "Happy birthday Ali — we hope you have a great day!"
-  : "Good morning Ali";
-
-  console.log(greeting);
+const greeting = isBirthday? "Happy birthday Ali — we hope you have a great day!": "Good morning Ali";
+console.log(greeting);
 
 
 // Example 2
