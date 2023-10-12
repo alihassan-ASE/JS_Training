@@ -1,4 +1,5 @@
 // Ways to write string
+
 //With single Quote (It is single line string)
 let singleQuote = 'Using Single Quotes';
 console.log(singleQuote);
