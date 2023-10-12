@@ -22,7 +22,31 @@ if (cheese) {
   console.log("No cheese on toast for you today.");
 }
 
+// Example 3
+let shoppingDone = false;
+let childsAllowance;
 
+if (shoppingDone) {
+  childsAllowance = 10;
+} else {
+  childsAllowance = 5;
+}
+
+// Example 4 (Nested Condition and Operators)
+let day = 'Monday';
+let Weather = 'Sunny';
+let Temperature = '40Deg';
+
+
+if(day === 'Monday'){
+  if(Weather === 'Sunny' && Temperature === '40Deg'){
+    console.log('Its hot today');
+  }
+  else {
+    console.log('Its Raining');
+  }
+
+}
 
 
 // Switch Statement
@@ -39,3 +63,17 @@ switch(number){
 }
 
 
+// Ternary Conditions
+
+let isBirthday = true;
+const greeting = isBirthday
+  ? "Happy birthday Ali — we hope you have a great day!"
+  : "Good morning Ali";
+
+  console.log(greeting);
+
+
+// Example 2
+let data = 30;
+let result = data === 2 ? 'Number 2': data === 20 ? 'number is 20': 'Number is Invalid';
+console.log(result);
