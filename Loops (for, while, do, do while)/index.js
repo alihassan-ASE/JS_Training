@@ -27,6 +27,16 @@ for (let i=number-1; i>1; i--){
 }
 console.log('Factorial of given Number is ' + number);
 
+// Do While loop
+
+// Example 1
+let count = 1;
+do {
+  console.log("Count is: " + count);
+  count++;
+} while (count <= 5);
+
+// Example 2
 
 
 
@@ -49,4 +59,42 @@ while (n<=5){
 }
 console.log(results);
 
-// Example 3 (Palindrome Check)
+// Example 3 (use of continue)
+let i = 0;
+let checknumber = 0;
+while (i < 5) {
+  i++;
+  if (i === 3) {
+    continue;
+  }
+  checknumber += i;
+  console.log(checknumber);
+}
+
+// For in loop (using array)
+let array = ['ali', 'hassan', 'mughal'];
+for (index in array){
+  console.log('Indexes using for in are :' + index);
+}
+
+// For of (using object)
+let obj = {
+  firstName: 'Ali',
+  middleName: 'Hassan',
+  lastName: 'Mughal'
+}
+
+for (key in obj){
+  console.log('Keys using for in of given object are:' + key);
+}
+
+// for of (using array)
+
+for (value of array){
+  console.log('Value using for of in array are:' + value);
+}
+
+// for of (using object)
+for ([key, value] of Object.entries(obj)){
+  console.log('Values of object using for of are:' + value);
+}
